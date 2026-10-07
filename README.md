@@ -1,4 +1,3 @@
-
 # Netflix EDA — Exploratory Data Analysis
 
 ## Overview
@@ -30,7 +29,11 @@ for country in countries[countries != 'Unknown'].value_counts().head(12).index:
 top_12_pct
 ```
  We can see that 41.9% USA, 11.88% India, 9.15% United Kingdom, 5.05% Canada, and 4.46% France as the top 5 producing countries.
+
+ <img width="1078" height="693" alt="Screenshot 2026-10-07 at 1 52 06 PM" src="https://github.com/user-attachments/assets/3d3d12a8-6253-43fc-9e90-ca2a7e26b7e6" />
  ---
+ 
+<img width="850" height="574" alt="Screenshot 2026-10-07 at 1 55 49 PM" src="https://github.com/user-attachments/assets/98f73041-bddc-43a6-b1d2-aab8178f5e58" />
 
 3. From the figure above, we can see the biggest rating shown is TV-MA (mature), followed by TV-14, TV-PG, R, and PG-13 to round out the top 5. TV-MA and R are essentially the same rating given out to titles, but TV-MA is reserved only for TV shows, while R is reserved only for Movies.
 
